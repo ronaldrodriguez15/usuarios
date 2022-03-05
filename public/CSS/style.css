@@ -1,0 +1,31 @@
+body{
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1, h2, h3, h4, h5, h6, th{
+    font-family: 'PT Sans', sans-serif !important;
+    font-weight: 900;
+}
+p, td, .inputsTxt{
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+}
+.font-input{ font-family: 'Overpass', sans-serif; }
+.border-rounded{ border-radius: 15px !important; }
+.btn-success{
+    background-color: #00c0ce !important;
+    border: none !important;
+    transition: 0.5s;
+}
+.btn-danger{
+    border: none !important;
+    transition: 0.5s;
+}
+.btn-primary{
+    background-color: #2471A3 !important;
+    border: none !important;
+    transition: 0.5s;
+}
+.btn-success:hover{ background-color: #008a94 !important; }
+.btn-primary:hover{ background-color: #154360 !important; }
