@@ -7,8 +7,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="row mt-5">
-                <div class="col-md-3">
-
+                <div class="col-md-4">
                     <div class="card border-rounded">
                         <div class="card-header text-center">
                             <h5>Crea un nuevo usuario</h5>
@@ -111,10 +110,6 @@
                               </table>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-1 justify-content-center">
-                    <button class="btn btn-success border-rounded" title="modo claro"><span class="far fa-sun"></span></button><br>
-                    <button class="btn btn-success border-rounded mt-2" title="modo oscuro"><span class="far fa-moon"></span></button>
                 </div>
             </div>
         </div>
