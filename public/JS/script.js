@@ -1,6 +1,3 @@
-$(document).ready(function(){
-
-});
 
 const swalWithBootstrapButtons = Swal.mixin({
     customClass: {
@@ -15,13 +12,18 @@ $("#form-delete").submit(function(e){
     confirmation(2, this);
 });
 
+$("#form-edit").submit(function(e){
+    e.preventDefault();
+    confirmation(1, this);
+});
+
 function confirmation (action, form) {
 
     if (action == 1) {
         swalWithBootstrapButtons.fire({
             showClass: { popup: 'animate__animated animate__fadeInDown animate__delay-0.5s' },
             hideClass: { popup: 'animate__animated animate__fadeOutUp animate__delay-0.5s' },
-            title: '¿Estás seguro de actualizar el registro?',
+            title: '¿Estás seguro de actualizar el usuario?',
             icon: 'warning',
             showCancelButton: true,
             confirmButtonText: 'Si, actualizar!',

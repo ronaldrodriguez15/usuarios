@@ -123,7 +123,7 @@
     @if (session('success')=='registrado')
         <script>
             Swal.fire({
-                position: 'top-end',
+                position: 'top',
                 icon: 'success',
                 title: 'El usuario ha sido registrado',
                 showConfirmButton: false,
@@ -133,7 +133,7 @@
     @elseif (session('success')=='actualizado')
         <script>
             Swal.fire({
-                position: 'top-end',
+                position: 'top',
                 icon: 'success',
                 title: 'El usuario ha sido actualizado',
                 showConfirmButton: false,
@@ -143,7 +143,7 @@
     @elseif (session('success')=='eliminado')
         <script>
             Swal.fire({
-                position: 'top-end',
+                position: 'top',
                 icon: 'success',
                 title: 'El usuario ha sido eliminado',
                 showConfirmButton: false,

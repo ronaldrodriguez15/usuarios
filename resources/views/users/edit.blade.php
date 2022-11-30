@@ -10,7 +10,7 @@
                 <div class="card-body mt-5">
                     <div class="row">
                         <div class="col-md-6">
-                            <form action="{{ route('usuarios.update', $user->id) }}" method="post">
+                            <form action="{{ route('usuarios.update', $user->id) }}" method="post" id="form-edit">
                                 @csrf
                                 @method("PUT")
                                 <div class="input-group mb-3">
@@ -53,7 +53,7 @@
                                         <a href="{{ route('usuarios.index') }}" type="reset" class="btn btn-danger border-rounded inputsTxt"><i class="fas fa-arrow-alt-left me-2"></i>Atrás</a>
                                     </div>
                                     <div class="col-md-6 text-end"> 
-                                        <button type="submit" class="btn btn-success border-rounded inputsTxt"><i class="fas fa-user-plus me-2" onclick="confirmar(1)"></i>Actualizar registro</button>
+                                        <button type="submit" class="btn btn-success border-rounded inputsTxt"><i class="fas fa-user-plus me-2"></i>Actualizar registro</button>
                                     </div>
                                 </div>
                             </form>
